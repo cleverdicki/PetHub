@@ -1,30 +1,43 @@
 <div class="footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="row">
-                    <div class="col-md-4">
+    <div class="row">
+        <div class="col-md-12 layout_footer">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="row">
                         <div class="col-md-12">
                             <div class="row">
                                 <div class="col-md-6">
-                                    testing
+                                    <img src="<?= base_url("images/puphub") ?>" alt="PupHub">
                                 </div>
                                 <div class="col-md-6">
-                                    broo
+                                    <h1>PupHub</h1>
+                                    <p class="p_footer_desc">Cari hewan peliharaan dan kebutuhannya dengan mudah, cepat, dan aman.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <h6 class="h6_footer_left_title">Disponsori oleh: BEM ITS</h6>
-                        <h6 class="h6_footer_left">Ditmawa ITS</h6>
-                        <h6 class="h6_footer_left">Kelompok A08 MPPL</h6>
+                </div>
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col md 4">
+                        </div>
+                        <div class="col md 4">
+                            <h6 class="h6_footer_title">Beli</h6>
+                            <p class="p_footer">Anjing</p>
+                            <p class="p_footer">Kucing</p>
+                            <p class="p_footer">Kandang</p>
+                            <p class="p_footer">Makanan</p>
+                            <p class="p_footer">Aksesoris</p>
+                        </div>
+                        <div class="col md 4">
+                        </div>
                     </div>
-                    <div class="col-md-4">
-                        <h6 class="h6_footer_right_title">Disponsori oleh: BEM ITS</h6>
-                        <h6 class="h6_footer_right">Ditmawa ITS</h6>
-                        <h6 class="h6_footer_right">Kelompok A08 MPPL</h6>
-                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h6 class="h6_footer_title">Tentang</h6>
+                    <p class="p_footer">Tentang kami</p>
+                    <p class="p_footer">Kontak</p>
+                    <p class="p_footer">Bantuan</p>
                 </div>
             </div>
         </div>
