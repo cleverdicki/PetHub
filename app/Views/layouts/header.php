@@ -21,10 +21,6 @@
           <a class="nav-link" href="#">Tentang</a>
         </li>
       </ul>
-      <form class="form-inline">
-        <i class="fas fa-search"></i>
-        <input class="searchBar" type="search" placeholder="Search">
-      </form>
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
           <a class="nav-link" href="#">Daftar</a>
