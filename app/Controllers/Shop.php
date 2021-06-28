@@ -9,4 +9,8 @@ class Shop extends BaseController
 		return view('shop/animals');
 	}
 
+    public function supplies()
+    {
+        return view('shop/supplies');
+    }
 }

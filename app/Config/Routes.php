@@ -36,6 +36,7 @@ $routes->get('/', 'Home::index');
 $routes->get('/login', 'Home::login');
 $routes->get('/register', 'Home::register');
 $routes->get('/shop/animals', 'Shop::animals');
+$routes->get('/shop/supply', 'Shop::supplies');
 
 /*
  * --------------------------------------------------------------------

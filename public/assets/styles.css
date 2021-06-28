@@ -27,7 +27,7 @@ main {
     background-color: #FFE9E9;
 }
 
-.footer_title {
+.footer_title, .shop_animals_top_title, .shop_supplies_top_title {
     color: #326754;
     font-weight: bold;
 }
@@ -189,7 +189,7 @@ main {
     border-style: none;
 }
 
-.shop_animals_card {
+.shop_animals_card, .shop_supplies_card {
     background-color: #FFE9E9 !important;
     border-color: #FFE9E9 !important;
     border-radius: 30px !important;
@@ -197,14 +197,14 @@ main {
     margin-bottom: 100px !important;
 }
 
-.shop_animals_card-btn {
+.shop_animals_card-btn, .shop_supplies_card-btn {
     border-radius: 6px !important;
     width: 100%;
     color: #ffffff !important;
     background-color: #3F836A !important;
 }
 
-.shop_animals_card-image {
+.shop_animals_card-image, .shop_supplies_card-image {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -212,31 +212,31 @@ main {
 
 }
 
-.shop_animals_card-price {
+.shop_animals_card-price, .shop_supplies_card-price {
     font-weight: bolder;
     text-align: center;
     color: #326754;
 }
 
-.shop_animals_card-text {
+.shop_animals_card-text, .shop_supplies_card-text {
     color: #979697;
 }
 
-.shop_animals_card-title {
+.shop_animals_card-title, .shop_supplies_card-title {
     color: #326754;
 }
 
-.shop_animals_top {
+.shop_animals_top, .shop_supplies_top {
     box-shadow: 0px 2px 0px 0px #3A8DA8;
     margin: 25px;
 }
 
-.shop_animals_top_form-inline {
+.shop_animals_top_form-inline, .shop_supplies_top_form-inline {
     display: flex;
     justify-content: flex-end;
 }
 
-.shop_animals_top_searchbox {
+.shop_animals_top_searchbox, .shop_supplies_top_searchbox {
     border-style: solid;
     border-color: #ddd;
     border-radius: 5px;
