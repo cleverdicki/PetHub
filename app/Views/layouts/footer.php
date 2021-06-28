@@ -10,7 +10,7 @@
                                     <img src="<?= base_url("images/logoPawn.png") ?>" alt="PupHub">
                                 </div>
                                 <div class="col-md-9">
-                                    <h1>PupHub</h1>
+                                    <h1 class="footer_title">PupHub</h1>
                                     <p class="p_footer_desc">Cari hewan peliharaan dan kebutuhannya dengan mudah, cepat, dan aman.</p>
                                 </div>
                             </div>

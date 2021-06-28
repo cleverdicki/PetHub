@@ -27,6 +27,11 @@ main {
     background-color: #FFE9E9;
 }
 
+.footer_title {
+    color: #326754;
+    font-weight: bold;
+}
+
 .header {
     padding: 0px 100px;
     box-shadow: 0px 2px 5px 0px #ddd;
