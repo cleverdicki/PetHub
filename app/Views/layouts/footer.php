@@ -6,10 +6,10 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="row">
-                                <div class="col-md-6">
-                                    <img src="<?= base_url("images/puphub") ?>" alt="PupHub">
+                                <div class="col-md-3">
+                                    <img src="<?= base_url("images/logoPawn.png") ?>" alt="PupHub">
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-9">
                                     <h1>PupHub</h1>
                                     <p class="p_footer_desc">Cari hewan peliharaan dan kebutuhannya dengan mudah, cepat, dan aman.</p>
                                 </div>

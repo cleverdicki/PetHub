@@ -2,7 +2,7 @@
 
 <?= $this->section('content') ?>
 <div class="main">
-    <div class="jumbotron">
+    <div class="jumbotron"> 
         <div class="col-md-12">
             <div class="row">
                 <div class="col-md-6">

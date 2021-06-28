@@ -8,4 +8,9 @@ class Home extends BaseController
 	{
 		return view('home/landing');
 	}
+
+	public function login()
+	{
+		return view('account/login');
+	}
 }

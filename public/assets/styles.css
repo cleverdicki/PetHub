@@ -19,7 +19,9 @@ body {
 }
 
 .footer {
+    position: absolute;
     width: 100%;
+    bottom: 0;
     box-shadow: 0px -1px 0px 1px #ddd;
     padding: 50px 100px;
     margin-top: auto;
@@ -69,6 +71,43 @@ body {
     margin-left: 25px;
     margin-right: 100px;
 }
+
+.login_button {
+    background-color: #3F836A !important;
+    color: #ffffff !important;
+}
+
+.login_createAccount h6 {
+    text-align: center;
+}
+
+.login_form {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    width: 450px;
+}
+
+.login_forgotPassword {
+    position: absolute;
+    right: 0;
+    margin-right: 15px;
+}
+
+.login_forgotPassword a {
+    color: #979797 !important;
+    font-weight: bold;
+}
+
+.login_label, .login_rememberMe_text, .login_createAccount a, .login_createAccount h6 {
+    color: #A9ABBD;
+}
+
+.login_rememberMe_text {
+    margin-left: -15px;
+}
+
 
 .main {
     padding: 0px 100px;
