@@ -19,7 +19,7 @@ body {
 }
 
 .footer {
-    position: absolute;
+    position: sticky;
     width: 100%;
     bottom: 0;
     box-shadow: 0px -1px 0px 1px #ddd;
@@ -125,6 +125,55 @@ body {
 .p_footer{
     color: #111111;
     margin-bottom: 5px;
+}
+
+.register_button {
+    background-color: #3F836A !important;
+    color: #ffffff !important;
+}
+
+.register_createAccount h6 {
+    text-align: center;
+}
+
+.register_date_dropdown {
+    border-color: #ddd;
+}
+
+.register_form {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    width: 450px;
+}
+
+.register_forgotPassword {
+    position: absolute;
+    right: 0;
+    margin-right: 15px;
+}
+
+.register_forgotPassword a {
+    color: #979797 !important;
+    font-weight: bold;
+}
+
+.register_form_input {
+    padding-top: 25px;
+}
+
+.register_label_title, .register_createAccount a, .register_createAccount h6 {
+    color: #A9ABBD;
+}
+
+.register_label {
+    color: #3F836A !important;
+    font-weight: bold;
+}
+
+.register_rememberMe_text {
+    margin-left: -15px;
 }
 
 .searchBar {

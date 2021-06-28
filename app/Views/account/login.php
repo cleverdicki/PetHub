@@ -5,9 +5,9 @@
     <div class="login_form">
         <form class="login_register_form" action="" method="">
           <h1 class="login_h1">Selamat Datang</h1>
-          <div class="form_input_login">
+          <label class="login_label">Login dengan email</label>
+          <div class="login_form_input">
             <div class="form-group">
-              <label class="login_label">Login dengan email</label>
               <input type="email" class="form-control input_login" id="email" name="email" aria-describedby="emailHelp" placeholder="E-mail">
             </div>
             <div class="form-group">
