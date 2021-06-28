@@ -29,7 +29,7 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="card shop_animals_card" style="width: 20rem;">
-                            <img src="<?= base_url("images/ropeBall.png") ?>" class="shop_animals_card-image" alt="imagesAnimals">
+                            <img src="<?= base_url("images/poodle.png") ?>" class="shop_animals_card-image" alt="imagesAnimals">
                             <div class="card-body">
                                 <h3 class="shop_animals_card-price">Rp 4.000.000</h3>
                                 <h5 class="shop_animals_card-title">Black Poodle</h5>
@@ -40,7 +40,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="card shop_animals_card" style="width: 20rem;">
-                            <img src="<?= base_url("images/ropeBall.png") ?>" class="shop_animals_card-image" alt="imagesAnimals">
+                            <img src="<?= base_url("images/poodle.png") ?>" class="shop_animals_card-image" alt="imagesAnimals">
                             <div class="card-body">
                                 <h3 class="shop_animals_card-price">Rp 4.000.000</h3>
                                 <h5 class="shop_animals_card-title">Black Poodle</h5>
@@ -51,7 +51,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="card shop_animals_card" style="width: 20rem;">
-                            <img src="<?= base_url("images/ropeBall.png") ?>" class="shop_animals_card-image" alt="imagesAnimals">
+                            <img src="<?= base_url("images/poodle.png") ?>" class="shop_animals_card-image" alt="imagesAnimals">
                             <div class="card-body">
                                 <h3 class="shop_animals_card-price">Rp 4.000.000</h3>
                                 <h5 class="shop_animals_card-title">Black Poodle</h5>
@@ -62,7 +62,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="card shop_animals_card" style="width: 20rem;">
-                            <img src="<?= base_url("images/ropeBall.png") ?>" class="shop_animals_card-image" alt="imagesAnimals">
+                            <img src="<?= base_url("images/poodle.png") ?>" class="shop_animals_card-image" alt="imagesAnimals">
                             <div class="card-body">
                                 <h3 class="shop_animals_card-price">Rp 4.000.000</h3>
                                 <h5 class="shop_animals_card-title">Black Poodle</h5>
@@ -73,7 +73,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="card shop_animals_card" style="width: 20rem;">
-                            <img src="<?= base_url("images/ropeBall.png") ?>" class="shop_animals_card-image" alt="imagesAnimals">
+                            <img src="<?= base_url("images/poodle.png") ?>" class="shop_animals_card-image" alt="imagesAnimals">
                             <div class="card-body">
                                 <h3 class="shop_animals_card-price">Rp 4.000.000</h3>
                                 <h5 class="shop_animals_card-title">Black Poodle</h5>
@@ -84,7 +84,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="card shop_animals_card" style="width: 20rem;">
-                            <img src="<?= base_url("images/ropeBall.png") ?>" class="shop_animals_card-image" alt="imagesAnimals">
+                            <img src="<?= base_url("images/poodle.png") ?>" class="shop_animals_card-image" alt="imagesAnimals">
                             <div class="card-body">
                                 <h3 class="shop_animals_card-price">Rp 4.000.000</h3>
                                 <h5 class="shop_animals_card-title">Black Poodle</h5>
@@ -95,7 +95,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="card shop_animals_card" style="width: 20rem;">
-                            <img src="<?= base_url("images/ropeBall.png") ?>" class="shop_animals_card-image" alt="imagesAnimals">
+                            <img src="<?= base_url("images/poodle.png") ?>" class="shop_animals_card-image" alt="imagesAnimals">
                             <div class="card-body">
                                 <h3 class="shop_animals_card-price">Rp 4.000.000</h3>
                                 <h5 class="shop_animals_card-title">Black Poodle</h5>
