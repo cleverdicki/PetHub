@@ -257,3 +257,29 @@ main {
     padding: 0px 0px 0px 10px;
     margin-top: 5px;
 }
+
+.successPayment_content {
+    margin-top: 145px;
+}
+
+.successPayment_image {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.successPayment_subtitle {
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.successPayment_title {
+    color: #62D367;
+    font-weight: bold;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+}

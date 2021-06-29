@@ -13,4 +13,9 @@ class Shop extends BaseController
     {
         return view('shop/supplies');
     }
+
+    public function successPayment()
+    {
+        return view('shop/successPayment');
+    }
 }
