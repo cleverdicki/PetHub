@@ -124,14 +124,66 @@ main {
     margin-left: -15px;
 }
 
-
 .main {
     padding: 0px 100px;
+}
+
+.modal_select {
+    background-color: #001115;
+    color: #fff;
+}
+
+
+
+.modal_transaction_button {
+    width: 150px;
+}
+
+.modal_transaction_button_group {
+    display: flex;
+    justify-content: center;
+}
+
+.modal_transaction-name, .modal_transaction-description, .modal_transaction-quantity, .modal_transaction-price {
+    margin: 20px 0px;
+}
+
+.modal_transaction-order-result {
+    box-shadow: 0px 3px 0px 0px #999;
+    margin-bottom: 10px;
+}
+
+.modal_transaction-order-result_left {
+    font-weight: bold;
+}
+
+.modal_transaction-order-result_right {
+    text-align: end;
+}
+
+.modal_transaction-order-result_title {
+    margin: 25px 0px;
 }
 
 .navbar-collapse .navbar-nav .nav-item .nav-link {
     color: black;
     margin: 0px 5px;
+}
+
+.option_ovo {
+    background-color: #A431CD;
+}
+
+.option_gopay {
+    background-color: #57B1E3;
+}
+
+.option_indomaret {
+    background-color: #F1E049;
+}
+
+.option_transfer {
+    background-color: #4D30FF;
 }
 
 .p_footer_desc {
@@ -216,7 +268,7 @@ main {
     background-color: #3F836A !important;
 }
 
-.shop_animals_card-image, .shop_supplies_card-image, .landingPage_card-image {
+.shop_animals_card-image, .shop_supplies_card-image, .landingPage_card-image, .modal_transaction-image {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -231,12 +283,41 @@ main {
     color: #326754;
 }
 
-.shop_animals_card-text, .shop_supplies_card-text, .landingPage_card-text {
+.shop_animals_card-text, .shop_supplies_card-text, .landingPage_card-text, .modal_transaction-supplyDescription {
     color: #979697;
 }
 
 .shop_animals_card-title, .shop_supplies_card-title, .landingPage_card-title {
     color: #326754;
+}
+
+.shop_animals_modal-body {
+    padding: 50px !important;
+}
+
+.shop_animals_modal-body_header > .modal_title, .modal_transaction-supplyName, .modal_transaction-supplyQuantity, .modal_transaction-supplyPrice {
+    font-weight: bold;
+}
+
+.shop_animals_modal-body_detail {
+    padding: 25px 0px;
+    box-shadow: 0px 2px 0px 0px #ddd;
+}
+
+.shop_animals_modal-dialog {
+    max-width: 750px !important;
+}
+
+.shop_animals_modal-footer {
+    border-style: none !important;
+}
+
+.shop_animals_modal-header {
+    background-color: #FFE9E9;
+}
+
+.shop_animals_modal-title {
+    padding: 0px 35px;
 }
 
 .shop_animals_top, .shop_supplies_top {
@@ -256,6 +337,10 @@ main {
     border-width: 2px;
     padding: 0px 0px 0px 10px;
     margin-top: 5px;
+}
+
+.shop_modal-footer {
+    padding: 0px 75px 75px 75px;
 }
 
 .successPayment_content {
