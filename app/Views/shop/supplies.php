@@ -27,13 +27,14 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="row">
+                    <?php foreach ($supplies as $data) : ?>
                     <div class="col-md-4">
                         <div class="card shop_supplies_card" style="width: 20rem;">
-                            <img src="<?= base_url("images/ropeBall.png") ?>" class="shop_supplies_card-image" alt="imagessupplies">
+                            <img src="<?= base_url('img/' . $data['suppliesImage']) ?>" class="shop_supplies_card-image" alt="imagessupplies">
                             <div class="card-body">
-                                <h3 class="shop_supplies_card-price">Rp 18.000</h3>
-                                <h5 class="shop_supplies_card-title">Rope Ball Cat Toy</h5>
-                                <p class="shop_supplies_card-text">Mainan bola kucing yang terbuat dari tali</p>
+                                <h3 class="shop_supplies_card-price">Rp <?= $data['suppliesPrice'] ?></h3>
+                                <h5 class="shop_supplies_card-title"><?= $data['suppliesName'] ?></h5>
+                                <p class="shop_supplies_card-text"><?= $data['suppliesDescription'] ?></p>
                                 <button type="button" class="btn shop_supplies_card-btn" data-toggle="modal" data-target="#exampleModal">
                                     Beli Sekarang
                                 </button>
@@ -55,13 +56,13 @@
                                                         <div class="col-md-12">
                                                             <div class="row">
                                                                 <div class="col-md-4">
-                                                                    <img src="<?= base_url('images/food.png') ?>" alt="food" class="modal_transaction-image">
+                                                                    <img src="<?= base_url('img/' . $data['suppliesImage']) ?>" alt="food" class="modal_transaction-image">
                                                                 </div>
                                                                 <div class="col-md-8">
-                                                                    <h3 class="modal_transaction-name">Drools | 3KG</h3>
-                                                                    <h6 class="modal_transaction-description">Makanan anjing rasa telur ukuran 3kg</h6>
+                                                                    <h3 class="modal_transaction-name"><?= $data['suppliesName'] ?></h3>
+                                                                    <h6 class="modal_transaction-description"><?= $data['suppliesDescription'] ?></h6>
                                                                     <h5 class="modal_transaction-quantity">Kuantitas: 1</h5>
-                                                                    <h3 class="modal_transaction-price">Rp 210.000</h3>
+                                                                    <h3 class="modal_transaction-price">Rp <?= $data['suppliesPrice'] ?></h3>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -82,7 +83,7 @@
                                                                                         <p class="modal_transaction-order-result_left">Shipping</p>
                                                                                     </div>
                                                                                     <div class="col-md-6">
-                                                                                        <p class="modal_transaction-order-result_right">Rp 210.000</p>
+                                                                                        <p class="modal_transaction-order-result_right">Rp <?= $data['suppliesPrice'] ?></p>
                                                                                         <p class="modal_transaction-order-result_right">Rp 25.000</p>
                                                                                     </div>
                                                                                 </div>
@@ -136,6 +137,7 @@
                             </div>
                         </div>
                     </div>
+                    <?php endforeach; ?>
                 </div>
             </div>
         </div>
