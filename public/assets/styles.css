@@ -20,6 +20,28 @@ main {
     flex-grow: 1;
 }
 
+.adminDashboard_title, .adminRiwayat_title {
+    font-weight: bold;
+}
+
+.adminRiwayat_detailButton {
+    background-color: #3F836A !important;
+    color: #ffffff !important;
+}
+
+.adminRiwayat_searchbox {
+    margin: 20px;
+}
+
+.adminRiwayat_searchBar {
+    position: relative;
+    height: 30px;
+    width: 150px;
+    padding: 0px 10px;
+    margin: 0px 5px;
+    border-style: none;
+}
+
 .footer {
     width: 100%;
     box-shadow: 0px -1px 0px 1px #ddd;
@@ -353,12 +375,12 @@ main {
     margin: 25px;
 }
 
-.shop_animals_top_form-inline, .shop_supplies_top_form-inline {
+.shop_animals_top_form-inline, .shop_supplies_top_form-inline, .adminRiwayat_top_form-inline {
     display: flex;
     justify-content: flex-end;
 }
 
-.shop_animals_top_searchbox, .shop_supplies_top_searchbox {
+.shop_animals_top_searchbox, .shop_supplies_top_searchbox, .adminRiwayat_searchbox {
     border-style: solid;
     border-color: #ddd;
     border-radius: 5px;

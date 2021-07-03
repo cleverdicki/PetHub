@@ -12,6 +12,10 @@ class Admin extends BaseController
 	{
 		return view('admin/adminRiwayat');
 	}
+	public function detailRiwayat()
+	{
+		return view('admin/adminDetailRiwayat');
+	}
 	public function kelola()
 	{
 		return view('admin/adminKelola');

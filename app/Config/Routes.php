@@ -34,6 +34,7 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/admin', 'Admin::index');
 $routes->get('/admin/riwayat', 'Admin::riwayat');
+$routes->get('/admin/riwayat/detail', 'Admin::detailRiwayat');
 $routes->get('/admin/kelola', 'Admin::kelola');
 
 $routes->get('/', 'Home::index');
