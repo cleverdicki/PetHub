@@ -35,6 +35,10 @@ class Supplies extends Migration
 				'type'			=> 'VARCHAR',
 				'constraint'	=> '255',
             ],
+			'suppliesImage'	=> [
+				'type'			=> 'VARCHAR',
+				'constraint'	=> '255',
+            ],
             'created_at DATETIME DEFAULT CURRENT_TIMESTAMP',
             'updated_at DATETIME DEFAULT CURRENT_TIMESTAMP',
         ]);

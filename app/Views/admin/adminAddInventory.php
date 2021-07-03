@@ -7,7 +7,8 @@
         <div class="col-md-12">
             <div class="row">
                 <div class="col-md-6">
-                    <form class="register_register_form" action="" method="">
+                    <form action="/admin/inventory/addIventory/create" method="post" enctype="multipart/form-data">
+                    <?= csrf_field(); ?>
                     <div class="form-group">
                         <label for="suppliesName">Nama</label>
                         <input type="text" class="form-control adminAddInventory_formAdd" id="suppliesName" name="suppliesName" placeholder="Chow chow">
@@ -32,11 +33,13 @@
                         <label for="suppliesDescription">Deskripsi</label>
                         <input type="text" class="form-control adminAddInventory_formAdd" id="suppliesDescription" name="suppliesDescription" placeholder="guguk imut...">
                     </div>
-                    
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </div>
                 <div class="col-md-6">
-                    
+                    <div class="custom-file">
+                        <input type="file" class="custom-file-input" id="suppliesImage" name="suppliesImage">
+                        <label class="custom-file-label" for="SuppliesImage">Klik Disini untuk Menambah Gambar</label>
+                    </div>
                 </div>
                 </form>
             </div>

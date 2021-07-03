@@ -37,7 +37,8 @@ $routes->get('/admin/riwayat', 'Admin::riwayat');
 $routes->get('/admin/riwayat/detail', 'Admin::detailRiwayat');
 $routes->get('/admin/inventory', 'Admin::inventory');
 $routes->get('/admin/inventory/stuff', 'Admin::inventoryStuff');
-$routes->get('/admin/inventory.addInventory', 'Admin::addInventory');
+$routes->get('/admin/inventory/addInventory', 'Admin::addInventory');
+$routes->post('/admin/inventory/addIventory/create', 'Admin::createInventory');
 
 $routes->get('/', 'Home::index');
 $routes->get('/login', 'Home::login');

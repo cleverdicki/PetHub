@@ -27,7 +27,13 @@
                             <h5 class="adminInventory_card-title">Rope Ball Cat Toy</h5>
                             <p class="adminInventory_card-text">Mainan bola kucing yang terbuat dari tali</p>
                             <h5 class="adminInventory_card-total">Tersedia: 10</h5>
-                            <a href="#" class="btn adminInventory_card-btn">Beli Sekarang</a>
+                            <div class="adminInventory_card-button">
+                                <a href="#" class="btn adminInventory_card-btn">Edit</a>
+                                <form action="" class="d-inline">
+                                    <input type="hidden" name="_method" value="DELETE">
+                                    <button type="submit" class="btn btn-danger adminInventory_card-btnDelete">Delete</button>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
