@@ -2,10 +2,10 @@
 
 <?= $this->section('content') ?>
 <h1 class="adminRiwayat_title">Riwayat Transaksi</h1>
-<form class="form-inline adminRiwayat_top_form-inline">
-    <div class="adminRiwayat_searchbox">
+<form class="form-inline admin_top_form-inline">
+    <div class="admin_searchbox">
         <i class="fas fa-search"></i>
-        <input class="adminRiwayat_searchBar" type="search" placeholder="Cari Riwayat...">
+        <input class="admin_searchBar" type="search" placeholder="Cari Riwayat...">
     </div>
 </form>
 <table class="table">

@@ -7,6 +7,6 @@
         <li class="menu_item"><a href="<?= base_url('/admin/riwayat') ?>" class="link_menu_item"><img src="<?= base_url('images/DiscountIcon.png') ?>" class="icon">Riwayat</a></li>
     </div>
     <div class="menu_item_div">
-        <li class="menu_item"><a href="<?= base_url('/admin/kelola') ?>" class="link_menu_item"><img src="<?= base_url('images/DashboardIcon.png') ?>" class="icon">Kelola</a></li>
+        <li class="menu_item"><a href="<?= base_url('/admin/inventory') ?>" class="link_menu_item"><img src="<?= base_url('images/DashboardIcon.png') ?>" class="icon">Kelola</a></li>
     </div>
 </ul>

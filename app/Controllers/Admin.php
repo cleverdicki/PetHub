@@ -16,9 +16,17 @@ class Admin extends BaseController
 	{
 		return view('admin/adminDetailRiwayat');
 	}
-	public function kelola()
+	public function inventory()
 	{
-		return view('admin/adminKelola');
+		return view('admin/adminInventory');
+	}
+	public function inventoryStuff()
+	{
+		return view('admin/adminInventoryStuff');
+	}
+	public function addInventory()
+	{
+		return view('admin/adminAddInventory');
 	}
 
 }

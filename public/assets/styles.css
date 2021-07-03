@@ -20,8 +20,47 @@ main {
     flex-grow: 1;
 }
 
-.adminDashboard_title, .adminRiwayat_title {
+.adminDashboard_title, .adminRiwayat_title, .adminInventory_title {
     font-weight: bold;
+}
+
+.adminAddInventory_content {
+    padding-top: 50px;
+}
+
+.adminAddInventory_formAdd {
+    background-color: #ddd !important;
+}
+
+.adminInventory_addInventoryButton {
+    border-style: dashed !important;
+    border-color: #326754 !important;
+    padding: 245px 75px !important;
+    border-radius: 30px !important;
+}
+
+.adminInventory_card-total {
+    text-align: center;
+}
+
+.adminInventory_category {
+    margin-right: 25px;
+    color: #3F836A !important;
+    text-decoration: none !important;
+    font-weight: bold;
+}
+
+.adminInventory_category:hover {
+    color: #fff !important;
+    background-color: #3F836A !important;
+    transition: .5s;
+    border-radius: 3px;
+    font-weight: normal;
+    padding: 3px;
+}
+
+.adminInventory_linkCategory {
+    box-shadow: 0px 2px 0px 0px #999;
 }
 
 .adminRiwayat_detailButton {
@@ -29,11 +68,11 @@ main {
     color: #ffffff !important;
 }
 
-.adminRiwayat_searchbox {
+.admin_searchbox {
     margin: 20px;
 }
 
-.adminRiwayat_searchBar {
+.admin_searchBar {
     position: relative;
     height: 30px;
     width: 150px;
@@ -104,7 +143,7 @@ main {
     padding-top: 20vh;
 }
 
-.landingPage_card {
+.landingPage_card, .adminInventory_card, .adminInventory_addInventoryButton {
     margin-top: 25px;
 }
 
@@ -303,7 +342,7 @@ main {
     border-style: none;
 }
 
-.shop_animals_card, .shop_supplies_card, .landingPage_card {
+.shop_animals_card, .shop_supplies_card, .landingPage_card, .adminInventory_card {
     background-color: #FFE9E9 !important;
     border-color: #FFE9E9 !important;
     border-radius: 30px !important;
@@ -311,14 +350,14 @@ main {
     margin-bottom: 100px !important;
 }
 
-.shop_animals_card-btn, .shop_supplies_card-btn, .landingPage_card-btn {
+.shop_animals_card-btn, .shop_supplies_card-btn, .landingPage_card-btn, .adminInventory_card-btn {
     border-radius: 6px !important;
     width: 100%;
     color: #ffffff !important;
     background-color: #3F836A !important;
 }
 
-.shop_animals_card-image, .shop_supplies_card-image, .landingPage_card-image, .modal_transaction-image {
+.shop_animals_card-image, .shop_supplies_card-image, .landingPage_card-image, .adminInventory_card-image, .modal_transaction-image {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -327,17 +366,17 @@ main {
 
 }
 
-.shop_animals_card-price, .shop_supplies_card-price, .landingPage_card-price {
+.shop_animals_card-price, .shop_supplies_card-price, .landingPage_card-price, .adminInventory_card-price {
     font-weight: bolder;
     text-align: center;
     color: #326754;
 }
 
-.shop_animals_card-text, .shop_supplies_card-text, .landingPage_card-text, .modal_transaction-supplyDescription {
+.shop_animals_card-text, .shop_supplies_card-text, .landingPage_card-text, .adminInventory_card-text, .modal_transaction-supplyDescription {
     color: #979697;
 }
 
-.shop_animals_card-title, .shop_supplies_card-title, .landingPage_card-title {
+.shop_animals_card-title, .shop_supplies_card-title, .landingPage_card-title , .adminInventory_card-title, .adminInventory_card-total{
     color: #326754;
 }
 
@@ -375,12 +414,12 @@ main {
     margin: 25px;
 }
 
-.shop_animals_top_form-inline, .shop_supplies_top_form-inline, .adminRiwayat_top_form-inline {
+.shop_animals_top_form-inline, .shop_supplies_top_form-inline, .admin_top_form-inline {
     display: flex;
     justify-content: flex-end;
 }
 
-.shop_animals_top_searchbox, .shop_supplies_top_searchbox, .adminRiwayat_searchbox {
+.shop_animals_top_searchbox, .shop_supplies_top_searchbox, .admin_searchbox {
     border-style: solid;
     border-color: #ddd;
     border-radius: 5px;

@@ -35,7 +35,9 @@ $routes->setAutoRoute(true);
 $routes->get('/admin', 'Admin::index');
 $routes->get('/admin/riwayat', 'Admin::riwayat');
 $routes->get('/admin/riwayat/detail', 'Admin::detailRiwayat');
-$routes->get('/admin/kelola', 'Admin::kelola');
+$routes->get('/admin/inventory', 'Admin::inventory');
+$routes->get('/admin/inventory/stuff', 'Admin::inventoryStuff');
+$routes->get('/admin/inventory.addInventory', 'Admin::addInventory');
 
 $routes->get('/', 'Home::index');
 $routes->get('/login', 'Home::login');
