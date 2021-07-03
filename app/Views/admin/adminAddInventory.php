@@ -7,7 +7,7 @@
         <div class="col-md-12">
             <div class="row">
                 <div class="col-md-6">
-                    <form action="/admin/inventory/addIventory/create" method="post" enctype="multipart/form-data">
+                    <form action="<?= site_url('/admin/inventory/addIventory/create') ?>" method="post" enctype="multipart/form-data">
                     <?= csrf_field(); ?>
                     <div class="form-group">
                         <label for="suppliesName">Nama</label>

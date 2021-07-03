@@ -22,15 +22,15 @@
                 <?php foreach ($supplies as $data) : ?>
                 <div class="col-md-3">
                     <div class="card adminInventory_card mx-auto" style="width: 20rem;">
-                        <img src="/img/<?= $data['suppliesImage'] ?>" class="adminInventory_card-image" alt="imagesAnimals">
+                        <img src="<?= base_url('/img/' . $data['suppliesImage']) ?>" class="adminInventory_card-image" alt="imagesAnimals">
                         <div class="card-body">
                             <h3 class="adminInventory_card-price">Rp <?= $data['suppliesPrice'] ?></h3>
                             <h5 class="adminInventory_card-title"><?= $data['suppliesName'] ?></h5>
                             <p class="adminInventory_card-text"><?= $data['suppliesDescription'] ?></p>
                             <h5 class="adminInventory_card-total">Tersedia: <?= $data['suppliesQuantity'] ?></h5>
                             <div class="adminInventory_card-button">
-                                <a href="/admin/inventory/edit/<?= $data['id'] ?>" class="btn adminInventory_card-btn">Edit</a>
-                                <form action="/admin/inventory/<?= $data['id'] ?>" method="post" class="d-inline">
+                                <a href="<?= site_url('/admin/inventory/edit/' . $data['id']) ?>" class="btn adminInventory_card-btn">Edit</a>
+                                <form action="<?= site_url('/admin/inventory/' . $data['id']) ?>" method="post" class="d-inline">
                                     <?= csrf_field(); ?>
                                     <input type="hidden" name="_method" value="DELETE">
                                     <button type="submit" class="btn btn-danger adminInventory_card-btnDelete" onclick="return confirm('Apakah anda yakin?');">Delete</button>

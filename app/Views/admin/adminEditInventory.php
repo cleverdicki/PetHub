@@ -7,7 +7,7 @@
         <div class="col-md-12">
             <div class="row">
                 <div class="col-md-6">
-                    <form action="/admin/inventory/editIventory/edit/<?= $supplies['id']; ?>" method="post" enctype="multipart/form-data">
+                    <form action="<?= site_url('/admin/inventory/editIventory/edit/' . $supplies['id']); ?>" method="post" enctype="multipart/form-data">
                     <?= csrf_field(); ?>
                     <input type="hidden" name="suppliesImageOld" value="<?= $supplies['suppliesImage'] ?>">
                     <div class="form-group">
