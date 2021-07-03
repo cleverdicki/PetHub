@@ -4,7 +4,7 @@ namespace App\Database\Migrations;
 
 use CodeIgniter\Database\Migration;
 
-class Animals extends Migration
+class Histories extends Migration
 {
 	public function up()
     {
@@ -15,31 +15,35 @@ class Animals extends Migration
                 'unsigned'       => true,
                 'auto_increment' => true,
             ],
-            'animalName'	=> [
+            'buyerName'	=> [
                 'type'       	=> 'VARCHAR',
                 'constraint' 	=> '255',
             ],
-            'animalPrice'	=> [
+            'stuffName'	=> [
+                'type' 			=> 'VARCHAR',
+                'constraint' 	=> '255',
+            ],
+            'amountStuff'	=> [
                 'type' 			=> 'INT',
                 'constraint' 	=> 11,
             ],
-			'animalDescription'	=> [
+			'payingMethod'	=> [
 				'type'			=> 'VARCHAR',
 				'constraint'	=> '255',
             ],
-			'animalStock'	=> [
+			'totalPrice' => [
 				'type'			=> 'INT',
 				'constraint'	=> 11,
-            ],
+			],
             'created_at DATETIME DEFAULT CURRENT_TIMESTAMP',
             'updated_at DATETIME DEFAULT CURRENT_TIMESTAMP',
         ]);
         $this->forge->addKey('id', true);
-        $this->forge->createTable('animals');
+        $this->forge->createTable('histories');
     }
 
     public function down()
     {
-        $this->forge->dropTable('animals');
+        $this->forge->dropTable('histories');
     }
 }

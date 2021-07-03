@@ -27,6 +27,10 @@ class Supplies extends Migration
 				'type'			=> 'VARCHAR',
 				'constraint'	=> '255',
             ],
+			'suppliesStock'	=> [
+				'type'			=> 'INT',
+				'constraint'	=> 11,
+            ],
             'created_at DATETIME DEFAULT CURRENT_TIMESTAMP',
             'updated_at DATETIME DEFAULT CURRENT_TIMESTAMP',
         ]);

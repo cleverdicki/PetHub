@@ -43,6 +43,17 @@ main {
     padding-bottom: 20px;
 }
 
+.icon {
+    margin-right: 10px;
+}
+
+.iconHeader {
+    margin: 25px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .jumbotron {
     margin: 10px 0px !important;
     background-color: #ffffff !important;
@@ -88,6 +99,11 @@ main {
     margin-right: 100px;
 }
 
+.link_menu_item {
+    text-decoration: none !important;
+    color: #ffffff;
+}
+
 .login_button {
     background-color: #3F836A !important;
     color: #ffffff !important;
@@ -128,12 +144,14 @@ main {
     padding: 0px 100px;
 }
 
+.menu-item {
+    margin: 25px 20px 25px -20px;
+}
+
 .modal_select {
     background-color: #001115;
     color: #fff;
 }
-
-
 
 .modal_transaction_button {
     width: 150px;
@@ -343,6 +361,22 @@ main {
     padding: 0px 75px 75px 75px;
 }
 
+.sidebar-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 100vh;
+    font-size: 20px;
+    background-color: #111111;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    box-shadow: 0px 0px 20px #d4d4d4;
+    transition: .5s ease;
+}
+
 .successPayment_content {
     margin-top: 145px;
 }
@@ -367,4 +401,8 @@ main {
     font-size: 100px;
     display: flex;
     justify-content: center;
+}
+
+.ul_sidebar_menu_admin {
+    list-style-type: none;
 }

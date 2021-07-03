@@ -9,7 +9,7 @@
                     <div class="jumbotron_landingPage_left">
                         <h1 class="jumbotron_landingPage_h1">Beli Peliharaan dan Kebutuhannya Jadi Mudah</h1>
                         <p>Dengan PupHub, Kamu bisa mencari hewan peliharaan dan kebutuhannya dengan mudah, cepat, dan aman. Yuk belanja sekarang!</p>
-                        <button type="button" class="btn jumbotron_landingPage_btn">Mulai Belanja</button>
+                        <a href="<?= base_url('/shop/animals') ?>" class="btn jumbotron_landingPage_btn">Mulai Belanja</a>
                     </div>
                 </div>
                 <div class="col-md-6">
