@@ -144,7 +144,9 @@
 <?= $this->endsection() ?>
 
 <?= $this->section('javascript') ?>
-$('#myModal').on('shown.bs.modal', function () {
-  $('#myInput').trigger('focus')
-})
+<script>
+    $('#myModal').on('shown.bs.modal', function () {
+      $('#myInput').trigger('focus')
+    })
+</script>
 <?= $this->endsection() ?>

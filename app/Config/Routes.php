@@ -38,7 +38,11 @@ $routes->get('/admin/riwayat/detail', 'Admin::detailRiwayat');
 $routes->get('/admin/inventory', 'Admin::inventory');
 $routes->get('/admin/inventory/stuff', 'Admin::inventoryStuff');
 $routes->get('/admin/inventory/addInventory', 'Admin::addInventory');
+$routes->get('/admin/inventory/edit/(:num)', 'Admin::editData/$1');
 $routes->post('/admin/inventory/addIventory/create', 'Admin::createInventory');
+$routes->post('/admin/inventory/editIventory/edit/(:num)', 'Admin::updateData/$1');
+$routes->delete('/admin/inventory/(:num)', 'Admin::deleteData/$1');
+$routes->delete('/admin/inventoryStuff/(:num)', 'Admin::deleteDataStuff/$1');
 
 $routes->get('/', 'Home::index');
 $routes->get('/login', 'Home::login');
