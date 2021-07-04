@@ -35,10 +35,10 @@
                                 <h3 class="shop_animals_card-price">Rp <?= $data['suppliesPrice'] ?></h3>
                                 <h5 class="shop_animals_card-title"><?= $data['suppliesName'] ?></h5>
                                 <p class="shop_animals_card-text"><?= $data['suppliesDescription'] ?></p>
-                                <button type="button" class="btn shop_animals_card-btn" data-toggle="modal" data-target="#exampleModal">
+                                <button type="button" class="btn shop_animals_card-btn" data-toggle="modal" data-target="#exampleModal-<?= $data['id'] ?>">
                                     Beli Sekarang
                                 </button>
-                                <div class="modal fade shop_animals_modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal fade shop_animals_modal" id="exampleModal-<?= $data['id'] ?>" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div class="modal-dialog shop_animals_modal-dialog">
                                         <div class="modal-content shop_animals_modal-content">
                                             <div class="modal-header shop_animals_modal-header">
@@ -147,8 +147,5 @@
 
 <?= $this->section('javascript') ?>
 <script>
-    $('#myModal').on('shown.bs.modal', function () {
-      $('#myInput').trigger('focus')
-    })
 </script>
 <?= $this->endsection() ?>
