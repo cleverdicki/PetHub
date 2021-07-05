@@ -31,8 +31,9 @@ class Users extends Migration
 				'type'			=> 'VARCHAR',
 				'constraint'	=> '255',
 			],
-			'dateBirthUser' => [
-				'type'			=> 'DATE',
+			'roleId' => [
+				'type'			=> 'VARCHAR',
+                'constraint'    => '255',
 			],
             'created_at DATETIME DEFAULT CURRENT_TIMESTAMP',
             'updated_at DATETIME DEFAULT CURRENT_TIMESTAMP',

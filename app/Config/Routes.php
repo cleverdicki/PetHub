@@ -50,6 +50,8 @@ $routes->get('/register', 'Home::register');
 $routes->get('/shop/animals', 'Shop::animals');
 $routes->get('/shop/supply', 'Shop::supplies');
 $routes->get('/shop/successPayment', 'Shop::successPayment');
+$routes->post('/auth/registration', 'Home::registerCreate');
+$routes->post('/auth/login', 'Home::loginAttemp');
 
 /*
  * --------------------------------------------------------------------

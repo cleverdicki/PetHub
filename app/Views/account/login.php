@@ -3,15 +3,15 @@
 <?= $this->section('content') ?>
 <div class="login_main">
     <div class="login_form">
-        <form class="login_register_form" action="" method="">
+        <form class="login_register_form" action="<?= site_url('/auth/login') ?>" method="post">
           <h1 class="login_h1">Selamat Datang</h1>
           <label class="login_label">Login dengan email</label>
           <div class="login_form_input">
             <div class="form-group">
-              <input type="email" class="form-control input_login" id="email" name="email" aria-describedby="emailHelp" placeholder="E-mail">
+              <input type="email" class="form-control input_login" id="email" name="emailUser" aria-describedby="emailHelp" placeholder="E-mail">
             </div>
             <div class="form-group">
-              <input type="password" class="form-control input_login" id="password" name="password" placeholder="Password">
+              <input type="password" class="form-control input_login" id="password" name="passwordUser" placeholder="Password">
             </div>
             <div class="row">
                 <div class="col-md-12">

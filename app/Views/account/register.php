@@ -3,7 +3,8 @@
 <?= $this->section('content') ?>
 <div class="register_main">
     <div class="register_form">
-        <form class="register_register_form" action="" method="">
+        <form class="register_register_form" action="<?= site_url('/auth/registration'); ?>" method="post">
+        <?= csrf_field() ?>
           <h1 class="register_h1">Daftar, yuk!</h1>
           <label class="register_label_title">Daftar dengan mudah</label>
           <div class="register_form_input">
@@ -13,13 +14,13 @@
                         <div class="col-md-6">
                             <div class="form-group">
                                 <label class="register_label">Nama Depan</label>
-                                <input type="name" class="form-control input_register" id="first_name" name="last_name" placeholder="Aldi">
+                                <input type="name" class="form-control input_register" id="first_name" name="firstNameUser" placeholder="Aldi">
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
                                 <label class="register_label">Nama Belakang</label>
-                                <input type="name" class="form-control input_register" id="last_name" name="first_name" placeholder="Radian">
+                                <input type="name" class="form-control input_register" id="last_name" name="lastNameUser" placeholder="Radian">
                             </div>
                         </div>
                     </div>
@@ -27,11 +28,11 @@
             </div>
             <div class="form-group">
               <label class="register_label">E-mail</label>
-              <input type="email" class="form-control" id="email" name="email" placeholder="aldi.radian@gmail.com">
+              <input type="email" class="form-control" id="email" name="emailUser" placeholder="aldi.radian@gmail.com">
             </div>
             <div class="form-group">
                 <label class="register_label">Password</label>
-                <input type="password" class="form-control input_register" id="password" name="password" placeholder="Password harus memiliki minimal 8 karakter">
+                <input type="password" class="form-control input_register" id="password" name="passwordUser" placeholder="Password harus memiliki minimal 8 karakter">
             </div>
             <div class="form-group">
                 <label class="register_label">Tanggal Lahir</label><br>
